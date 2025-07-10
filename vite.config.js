@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base:'/Enfera.github.io/',
   plugins: [react(), tailwindcss()],
 });
 //this is first comment from Ernaga for test 
